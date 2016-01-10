@@ -1,0 +1,20 @@
+{
+  "name": "classnames",
+  "version": "0.0.1",
+  "description": "造轮子系列 -- 一个简单的 className 处理工具，参考 Jed Watson 的 classnames",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "devDependencies": {
+    "istanbul": "^0.4.1",
+    "mocha": "^2.3.4",
+    "should": "^8.0.2"
+  },
+  "scripts": {
+    "test": "mocha",
+    "test-cov": "istanbul cover ./node_modules/.bin/_mocha"
+  },
+  "author": "52cik",
+  "license": "MIT"
+}
