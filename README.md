@@ -2,7 +2,9 @@
 
 造轮子系列 -- 一个简单的 className 处理工具，参考 Jed Watson 的 https://github.com/JedWatson/classnames
 
-[![Linux Build][travis-image]][travis-url] [![Windows Build][appveyor-image]][appveyor-url] [![Coverage Status][coveralls-image]][coveralls-url]
+  [![Linux Build][travis-image]][travis-url] 
+  [![Windows Build][appveyor-image]][appveyor-url] 
+  [![Coverage Status][coveralls-image]][coveralls-url]
 
 ## 安装
 
