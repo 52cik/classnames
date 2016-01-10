@@ -22,5 +22,6 @@ classNames('foo', 'bar'); // => 'foo bar'
 
 [travis-url]: https://travis-ci.org/52cik/classnames
 [travis-image]: http://img.shields.io/travis/52cik/classnames.svg
-[coveralls-url]:https://coveralls.io/r/52cik/classnames
-[coveralls-image]:https://coveralls.io/repos/52cik/classnames/badge.png
+
+[coveralls-url]:https://coveralls.io/github/52cik/classnames?branch=master
+[coveralls-image]:https://coveralls.io/repos/52cik/classnames/badge.svg?branch=master&service=github
