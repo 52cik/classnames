@@ -1,7 +1,7 @@
 {
   "name": "classnames",
-  "version": "0.0.1",
-  "description": "造轮子系列 -- 一个简单的 className 处理工具，参考 Jed Watson 的 classnames",
+  "version": "1.0.0",
+  "description": "造轮子系列 -- 一个简单的 className 处理工具，参考 Jed Watson 的 https://github.com/JedWatson/classnames",
   "main": "index.js",
   "directories": {
     "test": "test"
@@ -15,6 +15,14 @@
     "test": "mocha",
     "test-cov": "istanbul cover ./node_modules/.bin/_mocha"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/52cik/classnames.git"
+  },
   "author": "52cik",
-  "license": "MIT"
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/52cik/classnames/issues"
+  },
+  "homepage": "https://github.com/52cik/classnames#readme"
 }
