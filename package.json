@@ -7,13 +7,15 @@
     "test": "test"
   },
   "devDependencies": {
+    "fecs": "^0.5.1-beta.1",
     "istanbul": "^0.4.1",
     "mocha": "^2.3.4",
     "should": "^8.0.2"
   },
   "scripts": {
     "test": "mocha",
-    "test-cov": "istanbul cover ./node_modules/.bin/_mocha"
+    "test-cov": "istanbul cover ./node_modules/.bin/_mocha",
+    "fecs": "fecs check index.js"
   },
   "repository": {
     "type": "git",
@@ -24,5 +26,10 @@
   "bugs": {
     "url": "https://github.com/52cik/classnames/issues"
   },
-  "homepage": "https://github.com/52cik/classnames#readme"
+  "homepage": "https://github.com/52cik/classnames#readme",
+  "eslintConfig": {
+    "rules": {
+      "brace-style": 2
+    }
+  }
 }
