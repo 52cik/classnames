@@ -32,11 +32,7 @@
 
             for (k in arg) {
                 if (hasOwn.call(arg, k)) {
-                    if (arg[k]) {
-                        resultSet[k] = true;
-                    } else {
-                        delete resultSet[k];
-                    }
+                    resultSet[k] = arg[k];
                 }
             }
         },
