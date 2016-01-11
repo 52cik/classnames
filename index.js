@@ -66,6 +66,7 @@
         return list.join(' ');
     }
 
+    /* istanbul ignore next */
     if (typeof module !== 'undefined' && module.exports) {
         module.exports = classNames;
     } else if (typeof define === 'function') {
